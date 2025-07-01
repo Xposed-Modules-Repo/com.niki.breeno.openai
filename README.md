@@ -6,13 +6,19 @@
 
 允许 ColorOS 小布助手换源自定义大模型 API，兼容 OpenAI 协议。
 
-Enable ColorOS Breeno Assistant to support switching to a custom large language model API compatible with the OpenAI protocol.
+内置简单的工具调用功能，支持代理，支持“小布小布”语音唤醒
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
+</div>
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/p1.jpg?raw=true" alt="p1" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/p2.jpg?raw=true" alt="p2" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/p3.jpg?raw=true" alt="p3" width="200"/>
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/p4.jpg?raw=true" alt="p4" width="200"/>
 </div>
+
 
 xposed api 版本： 82
 
@@ -25,6 +31,6 @@ xposed api 版本： 82
 ## 已知问题：
 
 - 由于 OPPO 官方云同步机制，自定义 API 的对话记录不能被保存在本地
-- 由于 OPPO Asr 语音识别服务存在反 Hook 机制，语音识别功能在开启模块后失效
+- 启用任何工具时使用非流式请求
 
 > 遇到问题? 提交 [Issue](https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/issues/new)
