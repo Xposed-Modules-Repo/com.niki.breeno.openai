@@ -6,7 +6,7 @@
 
 允许 ColorOS 小布助手换源自定义大模型 API，兼容 OpenAI 协议。
 
-内置简单的工具调用功能，支持代理，支持“小布小布”语音唤醒
+内置简单的工具调用功能，支持代理，支持小布语音唤醒
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
@@ -31,6 +31,5 @@ xposed api 版本： 82
 ## 已知问题：
 
 - 由于 OPPO 官方云同步机制，自定义 API 的对话记录不能被保存在本地
-- 启用任何工具时使用非流式请求
 
 > 遇到问题? 提交 [Issue](https://github.com/Xposed-Modules-Repo/com.niki.xiaobu.hook/issues/new)
