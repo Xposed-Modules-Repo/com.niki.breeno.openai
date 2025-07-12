@@ -46,4 +46,5 @@ It includes simple **tool-calling capabilities**, **proxy support**, and **voice
 ------
 
 *If you are interested in my capabilities in **technical research, reverse engineering, Hook development, system feature customization, or mobile-side LLM integration**, feel free to contact me.*
+
 *To avoid plagiarism and other problems, this project is not open source. The key information is kept locally only, thank you for trusting me*
