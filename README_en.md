@@ -17,19 +17,19 @@ It includes simple **tool-calling capabilities**, **proxy support**, and **voice
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
 </div>
-
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa1.jpg?raw=true" alt="p1" width="200"/>
-  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa2.jpg?raw=true" alt="p2" width="200"/>
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pb1.jpg?raw=true" alt="p1" width="200"/>
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pb2.jpg?raw=true" alt="p2" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa3.jpg?raw=true" alt="p3" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
 
 
 
+
 **Xposed API Version**: 82
 
-**Compatible breeno Assistant Version**: 11.8.6 (Other versions require self-testing.)
+**Compatible breeno Assistant Version**: 11.8.6、11.9.1 (Other versions require self-testing.)
 
 ------
 
