@@ -6,8 +6,6 @@
 
 This module allows ColorOS's Breeno Assistant to **change its AI model source** and **customize large language model (LLM) APIs**, with compatibility for the **OpenAI protocol**.
 
-It includes simple **tool-calling capabilities**, **proxy support**, and **voice wake-up support** for breeno.
-
 [![Stars](https://img.shields.io/github/stars/Xposed-Modules-Repo/com.niki.breeno.openai?label=stars)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai)
 [![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.niki.breeno.openai?include_prereleases)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases/latest)
 [![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.niki.breeno.openai/total)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases)
@@ -21,6 +19,16 @@ It includes simple **tool-calling capabilities**, **proxy support**, and **voice
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa3.jpg?raw=true" alt="p3" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
+
+
+Features:
+
+- **Built-in simple tool-calling capabilities:** For example, launching apps or checking the time.
+- **Socks proxy support.**
+- **Keyword-triggered fallback to the Breeno assistant** for practical features, e.g., <u>*${Keywords}*, start a one-minute countdown</u>.
+- **Support for native voice activation.**
+- **Supported languages:** Chinese and English.
+
 
 
 **Xposed API Version**: 82

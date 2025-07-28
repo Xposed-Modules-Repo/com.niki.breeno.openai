@@ -8,8 +8,6 @@
 
 允许 ColorOS 小布助手换源自定义大模型 API，兼容 OpenAI 协议。
 
-内置简单的工具调用功能，支持代理，支持小布语音唤醒
-
 [![Stars](https://img.shields.io/github/stars/Xposed-Modules-Repo/com.niki.breeno.openai?label=stars)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai)
 [![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.niki.breeno.openai?include_prereleases)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases/latest)
 [![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.niki.breeno.openai/total)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases)
@@ -23,6 +21,16 @@
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa3.jpg?raw=true" alt="p3" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
+
+
+功能：
+
+- 内置简单的工具调用功能：比如启动应用、查看时间等
+- 支持 Socks 代理
+- 支持关键词触发回退小布，以使用实用小布功能，比如：<u>*小小布*，倒计时一分钟</u>
+- 支持原生的`小布小布`语音唤醒功能
+- 已适配语言：中英
+
 
 
 xposed api 版本： 82
