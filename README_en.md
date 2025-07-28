@@ -1,18 +1,16 @@
 # Breeno Source Changer
 
-
-
 [About Me](https://github.com/niki914)
 
-
-
 ## Overview
-
-
 
 This module allows ColorOS's Breeno Assistant to **change its AI model source** and **customize large language model (LLM) APIs**, with compatibility for the **OpenAI protocol**.
 
 It includes simple **tool-calling capabilities**, **proxy support**, and **voice wake-up support** for breeno.
+
+[![Stars](https://img.shields.io/github/stars/Xposed-Modules-Repo/com.niki.breeno.openai?label=stars)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai)
+[![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.niki.breeno.openai?include_prereleases)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases/latest)
+[![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.niki.breeno.openai/total)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases)
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
@@ -25,19 +23,13 @@ It includes simple **tool-calling capabilities**, **proxy support**, and **voice
 </div>
 
 
-
-
 **Xposed API Version**: 82
 
 **Compatible breeno Assistant Version**: 11.8.6、11.9.1 (Other versions require self-testing.)
 
 ------
 
-
-
 ## Known Issues:
-
-
 
 - Due to OPPO's official cloud synchronization mechanism, conversation history from custom APIs cannot be saved locally.
 

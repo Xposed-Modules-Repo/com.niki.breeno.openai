@@ -10,6 +10,10 @@
 
 内置简单的工具调用功能，支持代理，支持小布语音唤醒
 
+[![Stars](https://img.shields.io/github/stars/Xposed-Modules-Repo/com.niki.breeno.openai?label=stars)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai)
+[![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.niki.breeno.openai?include_prereleases)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases/latest)
+[![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.niki.breeno.openai/total)](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/releases)
+
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
 </div>
@@ -21,15 +25,11 @@
 </div>
 
 
-
-
 xposed api 版本： 82
 
 小布助手兼容版本： 11.8.6、11.9.1 其他版本自测
 
-
-
----
+------
 
 ## 已知问题：
 
@@ -37,7 +37,7 @@ xposed api 版本： 82
 
 > 有功能建议或遇到问题? 提交 [Issue](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/issues/new)
 
-
+------
 
 *如果您对我的 技术研究、逆向分析、Hook开发、系统功能定制或大模型移动端集成能力感兴趣，欢迎联系*
 
