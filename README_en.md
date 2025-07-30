@@ -14,8 +14,8 @@ This module allows ColorOS's Breeno Assistant to **change its AI model source** 
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/record.gif?raw=true" alt="record" width="200"/>
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pb1.jpg?raw=true" alt="p1" width="200"/>
-  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pb2.jpg?raw=true" alt="p2" width="200"/>
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/i1_en.jpg?raw=true" alt="p1" width="200"/>
+  <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/i2_en.jpg?raw=true" alt="p2" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa3.jpg?raw=true" alt="p3" width="200"/>
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
