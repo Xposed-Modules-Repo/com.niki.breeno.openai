@@ -31,9 +31,9 @@ Features:
 
 
 
-**Xposed API Version**: 82
+**Xposed API Version**: 93
 
-**Compatible breeno Assistant Version**: 11.8.6、11.9.1 (Other versions require self-testing.)
+**Compatible breeno Assistant Version**: 11.8.6 ~ 11.9.2 (Other versions require self-testing.)
 
 ------
 
