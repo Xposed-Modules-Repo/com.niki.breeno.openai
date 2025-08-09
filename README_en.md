@@ -40,6 +40,7 @@ Features:
 ## Known Issues:
 
 - Due to OPPO's official cloud synchronization mechanism, conversation history from custom APIs cannot be saved locally.
+- Some large language model APIs may have compatibility issues, which could lead to failed responses or other problems.
 
 > Have feature suggestions or encountered issues? Please submit an [Issue](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/issues/new).
 

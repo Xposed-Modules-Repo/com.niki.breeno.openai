@@ -42,6 +42,7 @@ xposed api 版本： 93
 ## 已知问题：
 
 - 由于 OPPO 官方云同步机制，自定义 API 的对话记录不能被保存在本地
+- 部分大模型 API 存在兼容性问题，可能导致回答失败等问题
 
 > 有功能建议或遇到问题? 提交 [Issue](https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/issues/new)
 
