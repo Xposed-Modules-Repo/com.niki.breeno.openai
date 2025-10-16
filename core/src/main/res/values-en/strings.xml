@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">BreenoSourceChanger</string>
+    <string name="xposed_desc">Customizes the API source for ColorOS Breeno AI Assistant\'s model, compatible with the OpenAI protocol.</string>
+
+    <string name="other_settings_bar">Other Settings</string>
+    <string name="back">Back</string>
+    <string name="okay">OK</string>
+    <string name="input_value">Enter Value</string>
+    <string name="cancel">Cancel</string>
+    <string name="proxy_error_msg">Please enter a valid proxy, e.g.: 1.2.3.4:5678</string>
+    <string name="url_error_msg">Please enter a valid URL. It must start with \'https://\' or \'http://\'</string>
+
+    <string name="error_occurred_title">Oops! Something went wrong. Send an error report?</string>
+
+    <string name="hide_key">Hide Key</string>
+    <string name="show_key">Show Key</string>
+
+    <string name="invalid_number_msg">please enter a valid number</string>
+
+    <string name="app_bar">BreenoSourceChanger</string>
+    <string name="save">Save Config</string>
+    <string name="saved">Saved</string>
+    <string name="suggest_auto_complete">URL can be auto-completed, do you want to?</string>
+    <string name="perform_auto_complete">perform</string>
+    <string name="save_failed">Save Failed</string>
+    <string name="more_options">More Options</string>
+
+    <string name="might_cause_error_msg">The quality of these tool calls is related to the model\'s intelligence~\nCalls may fail due to API protocol differences.</string>
+
+
+    <string name="other_setting_ui_string">other settings</string>
+    <string name="about_ui_string">about me</string>
+    <string name="testing_ui_string">chat testing</string>
+    <string name="report_ui_string">report</string>
+
+    <string name="api_key_ui_string">API Key</string>
+    <string name="api_key_ui_description">API key for the large language model</string>
+
+    <string name="llm_url_ui_string">URL</string>
+    <string name="llm_url_ui_description">URL for the large language model API. !! Must be a complete URL !!</string>
+
+    <string name="model_name_ui_string">Model Name</string>
+    <string name="model_name_ui_description">Model ID for the large language model, e.g., o4-mini</string>
+
+    <string name="system_prompt_ui_string">System Prompt</string>
+    <string name="system_prompt_ui_description">Describes the LLM\'s requirements / performance or the role it should play</string>
+
+    <string name="timeout_ui_string">Connection Timeout</string>
+    <string name="timeout_ui_description">Custom API connection timeout in seconds</string>
+
+    <string name="proxy_ui_string">Socks Proxy (Experimental)</string>
+    <string name="proxy_ui_description">Socks proxy for traffic (leave blank to disable)</string>
+
+    <string name="show_tool_calling_ui_string">Show LLM\'s tool calling in the chat (for debugging)</string>
+
+    <string name="llm_launch_app_ui_string">Allow LLM to launch apps</string>
+
+    <string name="llm_launch_uri_ui_string">Allow LLM to open URIs</string>
+    <string name="llm_launch_uri_ui_description">URI capabilities include (dispatching to other apps): opening web pages, making phone calls, launching maps, playing media, etc.</string>
+
+    <string name="llm_get_device_info_ui_string">Allow LLM to view device info (time, battery, etc.)</string>
+    <string name="llm_run_shell_command_ui_string">Allow LLM to execute shell command</string>
+    <string name="llm_run_shell_command_ui_description">click to set up</string>
+
+    <string name="fallback_to_breeno_ui_string">Fallback to Breeno when keywords are included (Experimental)</string>
+    <string name="fallback_to_breeno_ui_description">Enable to use Breeno\'s original functions, such as setting alarms (leave blank to disable)</string>
+    <string name="shell_cmd_settings_bar">Shell Command Settings</string>
+    <string name="shell_unsafe_warn_msg">Running shell commands with Root access can brick your device. We are not responsible for any damage, so please use this feature at your own risk.</string>
+    <string name="run_shell_cmd_with_root_ui_string">Enable Root (Requires Breeno Assistance to have Root access)</string>
+    <string name="shell_list_color_ui_string">Using keywords as black list</string>
+    <string name="shell_list_color_ui_description">Enable to use blacklist mode, prohibiting the commands in the list; otherwise, enable whitelist mode, allowing only the commands in the list.</string>
+    <string name="shell_list_ui_string">List</string>
+    <string name="shell_list_ui_description">Using new line to split keywords or complete cmd, e.g., reboot、rm -rf *</string>
+    <string name="shell_ask_first_ui_string">Manually agree to execute command</string>
+    <string name="stop_generating">Stop generating</string>
+    <string name="clear_conversation">Clear conversation</string>
+    <string name="ask_anything">Ask anything...</string>
+    <string name="send">Send</string>
+    <string name="chat_testing_bar">Chat Testing</string>
+</resources>

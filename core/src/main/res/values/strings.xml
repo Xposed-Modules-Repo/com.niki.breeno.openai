@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">小布换源</string>
+    <string name="xposed_desc">ColorOS 小布助手换源自定义大模型 API，兼容 OpenAI 协议。</string>
+
+    <string name="other_settings_bar">其他设置</string>
+    <string name="back">返回</string>
+    <string name="okay">确定</string>
+    <string name="input_value">输入值</string>
+    <string name="cancel">取消</string>
+    <string name="proxy_error_msg">请输入正确的代理, 如: 1.2.3.4:5678</string>
+    <string name="url_error_msg">请填写正确的 URL, 必须以 \'https://\' 或 \'http://\' 开头</string>
+
+    <string name="error_occurred_title">哎呀! 出错了。要发送错误报告吗?</string>
+
+    <string name="hide_key">隐藏密钥</string>
+    <string name="show_key">显示密钥</string>
+
+    <string name="invalid_number_msg">请输入有效的数字</string>
+
+    <string name="app_bar">小布换源</string>
+    <string name="save">保存配置</string>
+    <string name="saved">已保存</string>
+    <string name="suggest_auto_complete">URL 可补全，是否要自动补全?</string>
+    <string name="perform_auto_complete">补全</string>
+    <string name="save_failed">保存失败</string>
+    <string name="more_options">更多选项</string>
+
+    <string name="might_cause_error_msg">这些工具的调用体验和模型智商有关~ 可能由于 API 协议差异导致调用出错</string>
+
+    <string name="other_setting_ui_string">其他设置</string>
+    <string name="about_ui_string">关于作者</string>
+    <string name="testing_ui_string">对话测试</string>
+    <string name="report_ui_string">问题反馈</string>
+
+    <string name="api_key_ui_string">API Key</string>
+    <string name="api_key_ui_description">大模型 API 的密钥</string>
+
+    <string name="llm_url_ui_string">URL</string>
+    <string name="llm_url_ui_description">大模型 API 的 URL。 !! 需完整填写整个 URL !!</string>
+
+    <string name="model_name_ui_string">模型名称</string>
+    <string name="model_name_ui_description">大模型的模型代号, 如 o4-mini</string>
+
+    <string name="system_prompt_ui_string">系统提示词</string>
+    <string name="system_prompt_ui_description">给大模型描述它的要求 / 表现或者它应该扮演什么角色</string>
+
+    <string name="timeout_ui_string">连接超时</string>
+    <string name="timeout_ui_description">自定义 API 的连接超时 (秒)</string>
+
+    <string name="proxy_ui_string">Socks 代理 (实验性)</string>
+    <string name="proxy_ui_description">Socks 流量代理 (留空则不使用代理)</string>
+
+    <string name="show_tool_calling_ui_string">在对话中展示大模型的工具调用情况 (调试用)</string>
+
+    <string name="llm_launch_app_ui_string">允许大模型启动应用</string>
+
+    <string name="llm_launch_uri_ui_string">允许大模型打开 URI</string>
+    <string name="llm_launch_uri_ui_description">URI 能力包括 (调度其他应用): 打开网页、拨打电话、启动地图、播放媒体等</string>
+
+    <string name="llm_get_device_info_ui_string">允许大模型查看设备信息 (时间、电量等)</string>
+    <string name="llm_run_shell_command_ui_string">允许大模型运行命令</string>
+    <string name="llm_run_shell_command_ui_description">点击进行设置</string>
+
+    <string name="fallback_to_breeno_ui_string">包含关键词时回退给小布来回答 (实验性)</string>
+    <string name="fallback_to_breeno_ui_description">开启以便于在一些时候使用小布原来的功能, 比如定闹钟等 (留空则不启用)</string>
+    <string name="shell_cmd_settings_bar">Shell 命令设置</string>
+    <string name="shell_unsafe_warn_msg">高权限下运行 Shell 命令可能导致包括变砖在内的严重后果, 本应用不负任何责任, 请自行斟酌使用</string>
+    <string name="run_shell_cmd_with_root_ui_string">启用 Root 权限 (需要给小布助手应用开放 Root)</string>
+    <string name="shell_list_color_ui_string">关键词使用黑名单</string>
+    <string name="shell_list_color_ui_description">开启为黑名单, 禁止执行列表中的命令; 否则为白名单, 仅允许执行列表中的命令</string>
+    <string name="shell_list_ui_string">列表</string>
+    <string name="shell_list_ui_description">用换行分割关键词或者完整命令, 例如: reboot、rm -rf *</string>
+    <string name="shell_ask_first_ui_string">调用命令需要手动同意</string>
+    <string name="stop_generating">停止生成</string>
+    <string name="clear_conversation">清空会话</string>
+    <string name="ask_anything">发送消息...</string>
+    <string name="send">发送</string>
+    <string name="chat_testing_bar">对话测试</string>
+</resources>
