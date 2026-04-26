@@ -54,7 +54,7 @@ class BreenoUIInterceptor {
                 }
 
                 // 保存关键对象，供我们后续注入使用
-                // 这是最关键的一步，确保我们有能力调用 d 方法
+                // 这是最关键的一步，确保我们有能力调用 v 方法
                 // 总是更新为最新的
                 messageProcessorInstance?.let {
                     uiInjector.messageProcessor = it

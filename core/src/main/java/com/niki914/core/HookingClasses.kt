@@ -14,7 +14,7 @@ object HookingClasses {
     const val AI_CHAT_ENGINE_HELPER =
         "com.heytap.speechassist.aichat.floatwindow.AIChatEngineHelper"
     const val DIRECTIVE = "com.heytap.speech.engine.protocol.directive.Directive"
-    const val MESSAGE_PROCESSOR = "com.heytap.speech.engine.connect.core.manager.e"
+    const val MESSAGE_PROCESSOR = "com.heytap.speech.engine.connect.core.manager.h"
     const val CONVERSATION_INFO = "com.heytap.speech.engine.net.remote.ConversationInfo"
 
     //    const val APP_APPLICATION = "com.heytap.speechassist.AppApplication" // hook 超类就行了

@@ -41,9 +41,9 @@ class BreenoUIInjector {
             val signedJsonArray: JSONArray =
                 jsonObject.getJSONArray("directives") // 这是 d 方法的第二个 JSONArray 参数
 
-            // 2. 使用主动调用 e.d()
+            // 2. 使用主动调用 h.v()
             messageProcessor!!.call<Any>(
-                "d",
+                "v",
                 signedJsonString,       // 修改后的带签名的 String
                 signedJsonArray,                  // 修改后的带签名的 JSONArray
                 conversationInfo                                // 使用我们保存的会话上下文
