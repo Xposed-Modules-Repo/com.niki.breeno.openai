@@ -36,18 +36,17 @@ class BreenoSemaphore {
      * 通过这个函数执行操作来进行注入的控制
      */
     suspend fun withPermit(action: suspend () -> Unit) {
-        callbackSemaphore.withPermit {
+        callbackSemaphore.acquire()
+        try {
             logV("breeno UI 注入 取得锁")
-            try {
-                action()
-                logV("breeno UI 注入结束")
-            } finally {
-                // action完成后，重置回调状态
-                synchronized(this) {
-                    isCallbackTriggered = false
-                    logV("breeno callback 信号量重置")
-                    callbackSemaphore.setTo(0)
-                }
+            action()
+            logV("breeno UI 注入结束")
+        } finally {
+            // action完成后，重置回调状态
+            synchronized(this) {
+                isCallbackTriggered = false
+                logV("breeno callback 信号量重置")
+                callbackSemaphore.setTo(0)
             }
         }
     }
@@ -59,12 +58,9 @@ class BreenoSemaphore {
         }
 
     /**
-     * 直接实例化一个 permits 为 0 的信号量会被抛出异常，所以需要这样做
-     *
-     * 而由于每一个 semaphoreWithNoPermits 实例化互不影响，所以不存在线程不安全问题
+     * 保证 Semaphore 达到指定的 permits 数量。
      */
     private fun Semaphore.setTo(num: Int) {
-        if (num == 0) return
         while (availablePermits != num) {
             if (availablePermits > num) {
                 tryAcquire()
