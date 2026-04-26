@@ -21,6 +21,7 @@ large language model (LLM) APIs**, with compatibility for the **OpenAI protocol*
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
 
+Telegram: [Click here to join](https://t.me/+ZPX2xtSl6RwyZGNl)
 
 Features:
 

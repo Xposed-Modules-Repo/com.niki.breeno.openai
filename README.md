@@ -22,6 +22,7 @@
   <img src="https://github.com/Xposed-Modules-Repo/com.niki.breeno.openai/blob/main/img/pa4.jpg?raw=true" alt="p4" width="200"/>
 </div>
 
+电报交流群: [点击此处加入](https://t.me/+ZPX2xtSl6RwyZGNl)
 
 功能：
 
